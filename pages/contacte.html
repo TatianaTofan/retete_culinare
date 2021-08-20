@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Retete culinare</title>
+
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            Rețete culinare moldovinești🍴
+            <i class="fas fa-utensils logo"></i>
+        </a>
+        <img class="menu-btn" onclick="show()" src="../images/menu.png">
+
+    </header>
+
+    <div class="page-container">
+
+        <aside id="side-menu">
+            <a href="../index.html">Home</a>
+            <a href="bors.html">Borș/Ciorbe</a>
+            <a href="salate.html">Salate</a>
+            <a href="contacte.html">Contacte</a>
+
+        </aside>
+
+        <main>
+            <h2 class="title">Contacte</h2>
+            <div class="row">
+                <div class="col-50">
+                    <h3>Contactează-ne dacă</h3>
+                    <ul class="contact-list">
+                        <li>Dorești să adaugi o recetă</li>
+                        <li>Dorești să găsești o recetă</li>
+                        <li>Ai sugestii/propuneri</li>
+                    </ul>
+                </div>
+                <div class="col-50">
+                    <h3>Date de contact</h3>
+                    <ul class="contact-list">
+                        <li><b>Adresa:</b> str. Melestiu 6</li>
+                        <li><b>Telefon:</b> 022 375 418</li>
+                        <li><b>Email:</b> taneatofan9@gmail.com</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-50">
+                    <iframe class="harta"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2720.646287549171!2d28.850921115402265!3d47.00791777914957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97c1c065599fd%3A0x50b18656191a4a2d!2sMelestiu%20St%206%2C%20Chi%C8%99in%C4%83u%2C%20Moldova!5e0!3m2!1sen!2s!4v1629309883567!5m2!1sen!2s"
+                        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-50">
+                    <div class="contact-form">
+                        <form>
+                            <h3 class="centered">Lasă un mesaj</h3>
+                            <input type="text" placeholder="Nume" required />
+                            <input type="email" placeholder="Email" required />
+                            <textarea rows="3" placeholder="Mesaj" required></textarea>
+                            <input type="submit" value="Transmite" />
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
